@@ -1,9 +1,5 @@
-Events.on(ClientLoadEvent, b  => {
 Events.on(WorldLoadEvent, e => {
   if(Vars.state.rules.infiniteResources){
-    //scripts
-  };
-};
 UnitTypes.corvus.speed = 3;
 UnitTypes.corvus.legCount = 8;
 UnitTypes.corvus.legLength = 100;
@@ -20,4 +16,6 @@ UnitTypes.corvus.weapons.add(UnitTypes.reign.weapons.get(1));
 UnitTypes.corvus.weapons.each(w=>w.alternate=false);
 UnitTypes.corvus.weapons.get(0).shootSound = Sounds.wind3;
 UnitTypes.corvus.weapons.get(0).chargeSound = Sounds.wind3;
-});
+  };
+}; 
+
