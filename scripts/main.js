@@ -1,6 +1,6 @@
 Events.on(ClientLoadEvent, b  => {
 Events.on(WorldLoadEvent, e => {
-  if(Vars.state.rules.infiniteResources){
+  if(Vars.state.rules.infiniteResources == true){
 UnitTypes.corvus.speed = 3;
 UnitTypes.corvus.legCount = 8;
 UnitTypes.corvus.legLength = 100;
