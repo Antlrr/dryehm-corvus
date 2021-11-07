@@ -1,6 +1,6 @@
 Events.on(ClientLoadEvent, b  => {
 Events.on(WorldLoadEvent, e => {
-  if(Vars.state.rules.infiniteResources == true){
+  if(Vars.state.rules.infiniteResources){
     //scripts
   };
 };
