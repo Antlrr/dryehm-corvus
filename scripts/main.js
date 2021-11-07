@@ -15,6 +15,6 @@ UnitTypes.corvus.weapons.add(UnitTypes.reign.weapons.get(1));
 UnitTypes.corvus.weapons.each(w=>w.alternate=false);
 UnitTypes.corvus.weapons.get(0).shootSound = Sounds.wind3;
 UnitTypes.corvus.weapons.get(0).chargeSound = Sounds.wind3;
-UnitTypes.corvus.abilities.add(UnitSpawnAbility(UnitTypes.aegires, 0, 0, 0))
+UnitTypes.corvus.abilities.add(UnitSpawnAbility(UnitTypes.nova, 0, 0, 0))
 });
 
